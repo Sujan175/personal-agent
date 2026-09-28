@@ -1,0 +1,9 @@
+[project]
+name = "personal-agent"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "agno[os,pgvector,postgres,slack,sqlite]>=3.0.10",
+    "cryptography>=50.0.1",
+    "openai>=3.15.0",
+]
